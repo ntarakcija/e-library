@@ -1,4 +1,4 @@
-# e-library
+#E-Biblioteka
 Projekat za predmet "Poslovni web sistemi"
 
 ## Poslovni problem
