@@ -35,7 +35,7 @@ Nije planirano angažovanje drugih ljudi za rad na ovome projektu.
 Jedine organizacije koje će biti uključene u ovaj projekat do njegovog plasiranja na tržište su izdavači odnosno izdavačke kuće, koje bi dale dozvolu za distribuciju njihovih e-knjiga preko našeg sistema.
 
 ## Trajanje projekta
-Datum početka: 25.10.2018.
+Datum početka: 25.10.2018.  
 Datum završetka: 25.01.2019.
 
 
