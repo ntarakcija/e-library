@@ -1,0 +1,1 @@
+Rezultat projekta je web aplikacija namijenjena za široku grupu korisnika sa podrškom za dva jezika. Aplikacija æe korisnicima omoguæiti širok izbor literature u samo par klikova. Korisnici æe takoðer imati moguænost ostavljanja kritika i sugestija u svrhu poboljšanja korisnièkog iskustva same stranice.

@@ -1,0 +1,9 @@
+Osnovne karakteristike buduæe aplikacije:
+- Responzivni dizajn
+- Višejeziènost
+- Sadržaj za sve uzraste
+- Velika baza knjiga u pdf formatu koja æe se konstano proširivati
+- Forma za korisnike (žalbe, pohvale, sugestije i želje)
+Detaljnije specifikacije æe biti u dokumentu o zahtjevima.
+
+Osnovni alati koji æe se koristiti su HTML i CSS. Pored toga, koristit æe se i JavaScript za realiziranje nekih od funkcionalnosti. Koristit æe se i neki softveri koji nisu neophodni, ali æe olakšati i ubrzati cijeli proces kreiranja aplikacije. Photoshop æe se iskorititi da se napravi mockup web aplikacije što æe olakšati design u HTML-u i CSS-u. Pored toga, koristit æe se i Visual Studio Code kao razvojno okruženje za web aplikaciju.
