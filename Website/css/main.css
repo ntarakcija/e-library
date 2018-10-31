@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    background: url("home-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background: #121420;
+    color: #fdfffc;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 50px;
+    opacity: 80%;
+}
+
+.logo {
+    width: fit-content;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+ul {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: fit-content;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul li:hover {
+    background: #fdfffc;
+    color: #121420;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #fdfffc;
+}
+
+a:visited {
+    color: #fdfffc;
+}
+
+.language {
+    width: fit-content;
+    float: right;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.language img {
+    margin-left: 20px;
+}
+
+.language div {
+    height: 30px;
+    display: inline-block;
+}
+
+footer {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: #121420;
+    opacity: 80%;
+    text-align: center;
+    color: #fdfffc;
+    padding: 0 50px;
+    box-sizing: border-box;
+    bottom: 0;
+}
+
+.copyright {
+    float: left;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.contact {
+    display: inline-block;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.contact .socials {
+    margin-top: 10px;
+}
+
+.contact .socials img {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.suggestions {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+}
+
+.suggestions a {
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.suggestions a:hover {
+    color: #121420;
+    background: #fdfffc;
+    text-decoration: none;
+}
