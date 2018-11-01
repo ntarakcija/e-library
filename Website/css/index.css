@@ -1,0 +1,130 @@
+body {
+    background: url("home-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+body::after {
+    content: "";
+    background: white;
+    opacity: 0.5;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+section {
+    text-align: center;
+    color: #b76d68;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h3 {
+    margin-bottom: 25px;
+}
+
+button {
+    border-radius: 100px;
+    height: 25px;
+    width: 100px;
+    background-color: #b76d68;
+    color: #fdfffc;
+    border-style: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    background: transparent;
+    border-color: #b76d68;
+    background-color: #fdfffc;
+    color: #b76d68;
+}
+
+.books {
+    margin-bottom: 50px;
+}
+
+.book {
+    width: 150px;
+    height: 210px;
+    background: #b76d68;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.book img:hover {
+    opacity: 0.5;
+}
+
+.book:hover {
+    border: 5px solid #b76d68;
+}
+
+.book img {
+    width: 150px;
+    margin: auto;
+}
+
+.book4 img {
+    width: 160px;
+}
+
+.book-club-ad {
+    margin-bottom: 150px;
+    position: relative;
+    text-align: center;
+}
+
+.book-club-ad div {
+    position: absolute;
+    margin-left: auto;
+    color: #fdfffc;
+}
+
+.book-club-ad .ad-title {
+    text-align: center;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 0);
+}
+
+.book-club-ad .ad-description {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.book-club-ad .ad-link {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.book-club-ad a {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.book-club-ad a:hover {
+    background: #fdfffc;
+    color: #b76d68;
+    text-decoration: none;
+}
