@@ -1,0 +1,152 @@
+body {
+    background: url("account-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+body::after {
+    content: "";
+    background: white;
+    opacity: 0.9;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+section {
+    text-align: center;
+    color: #b76d68;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.categories {
+    margin-bottom: 50px;
+}
+
+.categories-browse {
+    margin-top: 50px;
+}
+
+.category {
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    position: relative;
+    color: #fdfffc;
+    font-weight: bold;
+    background: black;
+    box-sizing: border-box;
+}
+
+.category img {
+    width: 200px;
+    opacity: 0.3;
+}
+
+.category div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.category:hover {
+    border: 5px solid #b76d68;
+}
+
+.book-club-ad {
+    margin-bottom: 150px;
+    margin-top: 25px;
+    position: relative;
+    text-align: center;
+}
+
+.book-club-ad div {
+    position: absolute;
+    margin-left: auto;
+    color: #fdfffc;
+}
+
+.book-club-ad .ad-title {
+    text-align: center;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 0);
+}
+
+.book-club-ad .ad-description {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.book-club-ad .ad-link {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.book-club-ad a {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.book-club-ad a:hover {
+    background: #fdfffc;
+    color: #b76d68;
+    text-decoration: none;
+}
+
+.details {
+    text-align: left;
+}
+
+.categories {
+    margin-bottom: 50px;
+}
+
+.categories-browse {
+    margin-top: 50px;
+}
+
+.library {
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    position: relative;
+    color: #fdfffc;
+    font-weight: bold;
+    background: black;
+    box-sizing: border-box;
+}
+
+.library img {
+    width: 200px;
+    opacity: 0.3;
+}
+
+.library div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.library:hover {
+    border: 5px solid #b76d68;
+}
+
