@@ -67,8 +67,13 @@ a:visited {
     height: 30px;
 }
 
+.language img:hover {
+    opacity: 1;
+}
+
 .language img {
     margin-left: 20px;
+    opacity: 0.7;
 }
 
 .language div {

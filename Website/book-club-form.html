@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>E-Biblioteka</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/suggestions-form.css">
+        <link href="https://fonts.googleapis.com/css?family=Parisienne|Varela+Round" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="main-container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><h2>LOGO</h2></a>
+                </div>
+                
+                <ul>
+                    <a href="index.html"><li>POČETNA</li></a></li>
+                    <a href="books.html"><li>KNJIGE</li></a>
+                    <a href="about.html"><li>O NAMA</li></a>
+                    <a href="account.html"><li>RAČUN</li></a>
+                </ul>
+
+                <div class="language">
+                    <div class="bih-lang">
+                        <a href="index.html"><img width="30px" src="images/bih.png" alt="Bosnia and Herzegovina flag"></a>
+                    </div>
+                    <div id="eng-lang">
+                        <a href="https://www.amazon.com/Kindle-eBooks/b?ie=UTF8&node=154606011" target="blank"><img width="30px" src="images/usa.png" alt="United States of America flag"></a>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="recommended">
+                <h3>PRIJAVA ZA KLUB ČITALACA</h3>
+                <form>
+                    <div id="box">
+                        <p id="description">Ispunite formu ispod</p>
+                    
+                        <form id="survey-form">
+                    
+                            <div class="row">
+                                <div class="labels">
+                                    <label for="name" id="name-label">*Ime:</label>
+                                </div>
+                                <div class="right">
+                                    <input type="text" id="name" name="name" class="input-field" placeholder="Unesite vaše ime" required>
+                                </div>
+                            </div>
+                    
+                            <div class="row">
+                                <div class="labels">
+                                    <label for="email" id="email-label">*Email:</label>
+                                </div>
+                                <div class="right">
+                                    <input type="email" id="email" class="input-field" placeholder="Unesite vaš email" required>
+                                </div>
+                            </div>
+                    
+                            <div class="row">
+                                <div class="labels">
+                                    <label for="number" id="number-label">*Godine:</label>
+                                </div>
+                                <div class="right">
+                                    <input type="number" id="number" class="input-field" min="18" max="80" placeholder="Vaše godine" required>
+                                </div>
+                            </div>
+                    
+                            <div class="row">
+                                <div class="labels">
+                                    <label for="dropdown" id="dropdown-label">Odaberite članstvo:</label>
+                                </div>
+                                <div class="right">
+                                    <select id="dropdown">
+                                        <option disabled value>Izaberite opciju</option>
+                                        <option>Godišnje</option>
+                                        <option>6 mjeseci</option>
+                                    </select>
+                                </div>
+                            </div>
+                    
+                            <div class="row">
+                                <button type="submit" id="submit">Učlani se</button>
+                            </div>
+                    
+                        </form>
+                    </div>
+                </form>
+
+            </section>
+
+            <footer>
+                <div class="copyright">
+                    <h2>LOGO</h2>
+                    <p>© E-Biblioteka 2018</p>
+                </div>
+                
+                <div class="contact">
+                    <p>e-mail</p>
+                    <p>broj telefona</p>
+                    <div class="socials">
+                        <a href="#"><img width="30px" src="images/linkedin.png"></a>
+                        <a href="#"><img width="30px" src="images/twitter.png"></a>
+                        <a href="#"><img width="30px" src="images/instagram.png"></a>
+                        <a href="#"><img width="30px" src="images/facebook.png"></a>
+                    </div>
+                </div>
+
+                <div class="suggestions">
+                    <a href="suggestions-form.html">Sugestije, komentari i žalbe</a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

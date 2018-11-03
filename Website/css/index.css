@@ -88,9 +88,9 @@ button:hover {
 }
 
 .book-club-ad {
-    margin-bottom: 150px;
     position: relative;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .book-club-ad div {
@@ -127,4 +127,8 @@ button:hover {
     background: #fdfffc;
     color: #b76d68;
     text-decoration: none;
+}
+
+.counter {
+    margin-bottom: 100px;
 }
