@@ -68,6 +68,7 @@ button:hover {
     overflow: hidden;
     text-align: center;
     box-sizing: border-box;
+    position: relative;
 }
 
 .book img:hover {
@@ -78,9 +79,29 @@ button:hover {
     border: 5px solid #b76d68;
 }
 
+.book:hover > a img{
+    opacity: 0.5;
+}
+
+.book:hover > a .downlaod {
+    opacity: 1;
+}
+
 .book img {
     width: 150px;
     margin: auto;
+}
+
+.downlaod {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    z-index: 100;
+    color: #fdfffc;
+    opacity: 0;
+    font-weight: bold;
 }
 
 .book4 img {
